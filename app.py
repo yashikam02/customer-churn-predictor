@@ -1,7 +1,12 @@
+
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib, shap, matplotlib.pyplot as plt
+import joblib
+import shap
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Churn Predictor", page_icon="🔄", layout="wide")
 
